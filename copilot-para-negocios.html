@@ -360,7 +360,7 @@ function escapeHtml(s){
 
 function renderSidebar(){
   const nav = document.getElementById("sidebarNav");
-  let html = `<div class="nav-home ${state.route==='intro'?'active':''}" onclick="window.location.href='/'"><svg class="icon"><use href="#i-home"/></svg><span>Início</span></div>`;
+  let html = `<div class="nav-home ${state.route==='intro'?'active':''}" onclick="window.location.href='https://hub247.shop/'"><svg class="icon"><use href="#i-home"/></svg><span>Início</span></div>`;
   DATA.forEach((m, i) => {
     const unlocked = isUnlocked(m.id);
     const st = moduleStatus(m.id);

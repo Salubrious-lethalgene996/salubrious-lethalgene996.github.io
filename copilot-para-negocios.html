@@ -8,13 +8,13 @@
 <meta name="keywords" content="Microsoft Copilot, Copilot para negócios, treinamento Copilot, IA generativa, Copilot Excel, Copilot Word, Copilot PowerPoint, Copilot Outlook, Copilot Teams, prompt engineering">
 <meta name="author" content="Thiago Oliveira">
 <meta name="robots" content="index, follow">
-<link rel="canonical" href="https://hub247.github.io/">
+<link rel="canonical" href="https://hub247.shop/copilot-para-negocios.html">
 <meta name="theme-color" content="#0f6cbd">
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
 <meta property="og:title" content="Microsoft Copilot para Negócios — Treinamento Completo">
 <meta property="og:description" content="Aprenda a usar o Microsoft Copilot no Word, Excel, PowerPoint, Outlook e Teams com exemplos práticos, prompts prontos e quizzes de avaliação.">
-<meta property="og:url" content="https://hub247.github.io/">
+<meta property="og:url" content="https://hub247.shop/copilot-para-negocios.html">
 <meta property="og:locale" content="pt_BR">
 <!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image">
@@ -360,7 +360,7 @@ function escapeHtml(s){
 
 function renderSidebar(){
   const nav = document.getElementById("sidebarNav");
-  let html = `<div class="nav-home ${state.route==='intro'?'active':''}" onclick="window.location.href='https://hub247.shop/'"><svg class="icon"><use href="#i-home"/></svg><span>Início</span></div>`;
+  let html = `<div class="nav-home ${state.route==='intro'?'active':''}" onclick="goHome()"><svg class="icon"><use href="#i-home"/></svg><span>Início</span></div>`;
   DATA.forEach((m, i) => {
     const unlocked = isUnlocked(m.id);
     const st = moduleStatus(m.id);
@@ -390,6 +390,7 @@ function renderSidebar(){
   document.getElementById("gprogBar").style.width = pct+"%";
 }
 
+function goHome(){ window.location.href = "https://hub247.shop/"; }
 function goIntro(){ state.route="intro"; state.quizActive=false; saveState(); render(); window.scrollTo(0,0); closeMobileSidebar(); }
 function goModule(id){
   if(!isUnlocked(id)) return;

